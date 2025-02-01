@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* Animatsiya qo'shish */
+    background: linear-gradient(to right, #F4A764, #FFDEC2);
+    transition: background-color 0.5s ease;
+}
+
+.container {
+    width: 1418px;
+    margin: 0;
+    padding: 54px 0 155px 155px;
+}
+
+.header {
+    width: 1500px;
+    height: 900px;
+    margin: 0 auto;
+    
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    font-size: 18px;
+}
+
+.sign {
+    width: 150px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.big {
+    display: flex;
+    gap: 150px;
+}
+
+.small {
+    margin-top: 135px;
+}
+
+.choose {
+    width: 600px;
+    height: 170px;
+    color: white;
+    font-size: 40px;
+}
+
+.the {
+    width: 613px;
+    height: 138px;
+    font-size: 24px;
+}
+
+span {
+    color: black;
+}
+
+.h2 {
+    width: 286px;
+    height: 96px;
+    font-size: 50px;
+    color: white;
+}
+
+.swiper {
+    width: 450px;
+    height: 500px;
+    margin-top: 90px;
+}
+
+.swiper-slide img {
+    width: 450px;
+    height: 500px;
+}
